@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-c8aetlj(=vp90n@#yoc^&d(_6ivp(d!bv-4-f!r$lawptjzrwu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['book-my-movie-application.vercel.app', 
+                'https://book-my-movie-application-git-main-ansh-kanteshs-projects.vercel.app/',
+                'https://book-my-movie-application-ansh-kanteshs-projects.vercel.app/'
+            ]
 
 
 # Application definition
