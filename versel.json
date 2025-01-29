@@ -9,5 +9,11 @@
             "src": "/(.*)",
             "dest": "bookmymovie/wsgi.py"
         }
+    ],
+    "REWRITES":[
+        {
+            "source": "/(.*)",
+            "destination": "/bookmymovie/wsgi.py"
+        }
     ]
 }
